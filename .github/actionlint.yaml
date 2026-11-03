@@ -1,0 +1,8 @@
+# yamllint disable rule:line-length
+---
+paths:
+  .github/workflows/dhi-cve-delta.yml:
+    ignore:
+      - '^label "ubuntu-26\.04" is unknown\.'
+      - '^property "workflow_repository" is not defined in object type \{check_run_id: number;'
+      - '^property "workflow_sha" is not defined in object type \{check_run_id: number;'
